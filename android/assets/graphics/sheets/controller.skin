@@ -1,0 +1,29 @@
+{
+
+	"com.bornander.libgdx.scene2d.Joystick$JoystickStyle": {
+		"default": {
+            "down": "horizontal_light",
+            "up": "horizontal_dark",
+            "background": "slider_background"
+		}
+	},
+	
+    "com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle": {
+        "left": {
+            "down": "left_light",
+            "up": "left_dark"
+        },
+        "right": {
+            "down": "right_light",
+            "up": "right_dark"
+        },
+        "jump": {
+            "down": "jump_light",
+            "up": "jump_dark"
+        },
+        "drop": {
+            "down": "drop_light",
+            "up": "drop_dark"
+        }
+	}
+}

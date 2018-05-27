@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nine Levels</string>
+    <string name="app_id">737702712820</string>
+
+    <string name="leaderboard_1">CgkI9KuIlLwVEAIQAQ</string>
+    <string name="leaderboard_2">CgkI9KuIlLwVEAIQAg</string>
+    <string name="leaderboard_3">CgkI9KuIlLwVEAIQAw</string>
+    <string name="leaderboard_4">CgkI9KuIlLwVEAIQBA</string>
+    <string name="leaderboard_5">CgkI9KuIlLwVEAIQBQ</string>
+    <string name="leaderboard_6">CgkI9KuIlLwVEAIQBg</string>
+    <string name="leaderboard_7">CgkI9KuIlLwVEAIQBw</string>
+    <string name="leaderboard_8">CgkI9KuIlLwVEAIQCA</string>
+    <string name="leaderboard_9">CgkI9KuIlLwVEAIQCQ</string>
+
+
+    <string name="achievement_1">CgkI9KuIlLwVEAIQCg</string>
+    <string name="achievement_2">CgkI9KuIlLwVEAIQCw</string>
+    <string name="achievement_3">CgkI9KuIlLwVEAIQDA</string>
+    <string name="achievement_4">CgkI9KuIlLwVEAIQDQ</string>
+    <string name="achievement_5">CgkI9KuIlLwVEAIQDg</string>
+    <string name="achievement_6">CgkI9KuIlLwVEAIQDw</string>
+    <string name="achievement_7">CgkI9KuIlLwVEAIQEA</string>
+    <string name="achievement_8">CgkI9KuIlLwVEAIQEQ</string>
+    <string name="achievement_9">CgkI9KuIlLwVEAIQEg</string>
+
+</resources>

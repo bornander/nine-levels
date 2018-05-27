@@ -1,0 +1,83 @@
+
+controller.png
+size: 963,242
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+drop_dark
+  rotate: false
+  xy: 0, 0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+drop_light
+  rotate: false
+  xy: 241, 0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+horizontal_dark
+  rotate: false
+  xy: 482, 0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+horizontal_light
+  rotate: false
+  xy: 723, 0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+jump_dark
+  rotate: false
+  xy: 0, 81
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+jump_light
+  rotate: false
+  xy: 241, 81
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+left_dark
+  rotate: false
+  xy: 482, 81
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+left_light
+  rotate: false
+  xy: 723, 81
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+right_dark
+  rotate: false
+  xy: 0, 162
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+right_light
+  rotate: false
+  xy: 241, 162
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+slider_background
+  rotate: false
+  xy: 482, 162
+  size: 240, 80
+  orig: 240, 80
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,132 @@
+
+menu.png
+size: 989,99
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+achievements_button_down
+  rotate: false
+  xy: 0, 0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+achievements_button_up
+  rotate: false
+  xy: 99, 0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+back_button_down
+  rotate: false
+  xy: 198, 0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+back_button_up
+  rotate: false
+  xy: 297, 0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+button_down
+  rotate: false
+  xy: 396, 0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+button_up
+  rotate: false
+  xy: 495, 0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+checkbox_off
+  rotate: false
+  xy: 594, 0
+  size: 38, 36
+  orig: 38, 36
+  offset: 0, 0
+  index: -1
+checkbox_on
+  rotate: false
+  xy: 693, 0
+  size: 38, 36
+  orig: 38, 36
+  offset: 0, 0
+  index: -1
+exit_gplus_button_down
+  rotate: false
+  xy: 792, 0
+  size: 98, 49
+  orig: 98, 49
+  offset: 0, 0
+  index: -1
+exit_gplus_button_up
+  rotate: false
+  xy: 891, 0
+  size: 98, 49
+  orig: 98, 49
+  offset: 0, 0
+  index: -1
+gplus_button_down
+  rotate: false
+  xy: 0, 50
+  size: 98, 49
+  orig: 98, 49
+  offset: 0, 0
+  index: -1
+gplus_button_up
+  rotate: false
+  xy: 99, 50
+  size: 98, 49
+  orig: 98, 49
+  offset: 0, 0
+  index: -1
+leaderboard_button_down
+  rotate: false
+  xy: 198, 50
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+leaderboard_button_up
+  rotate: false
+  xy: 297, 50
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+radiobutton_off
+  rotate: false
+  xy: 396, 50
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+radiobutton_on
+  rotate: false
+  xy: 495, 50
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+settings_button_down
+  rotate: false
+  xy: 594, 50
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+settings_button_up
+  rotate: false
+  xy: 693, 50
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1

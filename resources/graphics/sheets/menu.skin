@@ -1,0 +1,28 @@
+{
+    "com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle": {
+        "settings": {
+            "down": "settings_button_down",
+            "up": "settings_button_up"
+        },
+        "back": {
+            "down": "back_button_down",
+            "up": "back_button_up"
+        },
+        "signin": {
+            "down": "gplus_button_down",
+            "up": "gplus_button_up"
+        },
+        "signout": {
+            "down": "exit_gplus_button_down",
+            "up": "exit_gplus_button_up"
+        },
+        "leaderboard": {
+            "down": "leaderboard_button_down",
+            "up": "leaderboard_button_up"
+        },
+        "achievements": {
+            "down": "achievements_button_down",
+            "up": "achievements_button_up"
+        }
+	}
+}

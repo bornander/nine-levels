@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="SOLID" color="#ff0000"/>
+ <objecttype name="ONE_WAY" color="#0000ff"/>
+ <objecttype name="COIN" color="#ffaa00"/>
+ <objecttype name="SLIME" color="#00aa00"/>
+ <objecttype name="PUMPKIN_SPAWNER" color="#ff5500"/>
+ <objecttype name="BIRD" color="#5500ff"/>
+ <objecttype name="MASKED_BLOB" color="#005500"/>
+ <objecttype name="BRICK" color="#aa5500"/>
+</objecttypes>
