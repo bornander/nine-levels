@@ -41,7 +41,7 @@ public class Coin extends GameActor implements Contactable {
 		body.setTransform(MapUtils.getCenter(mapObject, unitScale), 0);
 		body.setUserData(this);
 		body.setFixedRotation(true);
-		Fixture ixture = body.createFixture(bodyFixtureDefinition);
+		Fixture fixture = body.createFixture(bodyFixtureDefinition);
 		fixture.setUserData(this);
 		
 		bodyShape.dispose();		
