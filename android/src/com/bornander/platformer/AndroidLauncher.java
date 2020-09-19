@@ -3,7 +3,6 @@ package com.bornander.platformer;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import com.bornander.libgdx.Log;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
@@ -63,7 +62,7 @@ public class AndroidLauncher extends AndroidApplication implements OnlineConnect
         signInClient.silentSignIn().addOnCompleteListener(this,
                 new OnCompleteListener<GoogleSignInAccount>() {
                     @Override
-                    public void onComplete(@NonNull Task<GoogleSignInAccount> task) {
+                    public void onComplete(Task<GoogleSignInAccount> task) {
                         if (task.isSuccessful()) {
                             try {
                                 Log.info("signInSilently(): success");
@@ -118,7 +117,7 @@ public class AndroidLauncher extends AndroidApplication implements OnlineConnect
         Task<Void> signOutTask = signInClient.signOut();
         signOutTask.addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
-            public void onComplete(@NonNull Task<Void> task) {
+            public void onComplete(Task<Void> task) {
                 Log.info("signOutTask onCompleted %b", task.isSuccessful());
                 currentCallback.onlineSignOut();
             }
@@ -186,7 +185,7 @@ public class AndroidLauncher extends AndroidApplication implements OnlineConnect
             Task<AnnotatedData<AchievementBuffer>> task = achievementsClient.load(false);
             task.addOnCompleteListener(this, new OnCompleteListener<AnnotatedData<AchievementBuffer>>() {
                 @Override
-                public void onComplete(@NonNull Task<AnnotatedData<AchievementBuffer>> task) {
+                public void onComplete(Task<AnnotatedData<AchievementBuffer>> task) {
                     Log.info("requestAchievements; task complete");
                     if (task.isSuccessful()) {
                         AnnotatedData<AchievementBuffer> result = task.getResult();
@@ -216,7 +215,7 @@ public class AndroidLauncher extends AndroidApplication implements OnlineConnect
             Task<AnnotatedData<LeaderboardsClient.LeaderboardScores>> task = leaderboardsClient.loadTopScores(leaderboard, LeaderboardVariant.TIME_SPAN_ALL_TIME, LeaderboardVariant.COLLECTION_PUBLIC, 1);
             task.addOnCompleteListener(this, new OnCompleteListener<AnnotatedData<LeaderboardsClient.LeaderboardScores>>() {
                 @Override
-                public void onComplete(@NonNull Task<AnnotatedData<LeaderboardsClient.LeaderboardScores>> task) {
+                public void onComplete(Task<AnnotatedData<LeaderboardsClient.LeaderboardScores>> task) {
                     Log.info("requestTopScore::onComplete %d, %s", scoreIndex, leaderboard);
                     Log.info("requestTopScore::onComplete task.isSuccessful()=" + task.isSuccessful());
                     try {
@@ -259,7 +258,7 @@ public class AndroidLauncher extends AndroidApplication implements OnlineConnect
                     })
                     .addOnFailureListener(new OnFailureListener() {
                         @Override
-                        public void onFailure(@NonNull Exception e) {
+                        public void onFailure(Exception e) {
                             handleException(e, "leaderboard problem");
                         }
                     });
@@ -281,7 +280,7 @@ public class AndroidLauncher extends AndroidApplication implements OnlineConnect
                     })
                     .addOnFailureListener(new OnFailureListener() {
                         @Override
-                        public void onFailure(@NonNull Exception e) {
+                        public void onFailure(Exception e) {
                             handleException(e, "achievements problem");
                         }
                     });

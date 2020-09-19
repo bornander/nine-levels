@@ -5,7 +5,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.0'
+        classpath 'com.android.tools.build:gradle:4.0.1'
     }
 }
 
@@ -52,8 +52,8 @@ project(":android") {
 
     dependencies {
         implementation project(":core")
-        implementation 'com.google.android.gms:play-services-auth:11.8.0'
-        implementation 'com.google.android.gms:play-services-games:11.8.0'
+        implementation 'com.google.android.gms:play-services-auth:18.1.0'
+        implementation 'com.google.android.gms:play-services-games:20.0.1'
         implementation "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi"
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi-v7a"
